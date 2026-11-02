@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+# Keep lead data and generated reports out of Git by default.
+data/
+output/
+reports/
+*_cleaned/
+*.csv
+*.tsv
+!examples/*.csv
