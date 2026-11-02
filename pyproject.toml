@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lead-csv-cleaner"
+version = "0.1.0"
+description = "Offline CSV lead-list checks for duplicates, missing fields and invalid email formats."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Lead CSV Cleaner contributors"}]
+dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+lead-csv-cleaner = "lead_csv_cleaner.cli:main"
+
+[project.urls]
+Repository = "https://github.com/mahadev4438-hub/lead-csv-cliner"
+Issues = "https://github.com/mahadev4438-hub/lead-csv-cliner/issues"
+
+[tool.setuptools.packages.find]
+include = ["lead_csv_cleaner*"]

@@ -1,0 +1,11 @@
+company_name,business_email,country,website,notes
+Northstar Demo,hello@northstar.example,Canada,https://northstar.example,Fictional sample only
+Northstar Demo,HELLO@NORTHSTAR.EXAMPLE,Canada,https://northstar.example,Duplicate email with different casing
+Blue Orbit Demo,partners@blue-orbit.example,United Kingdom,https://blue-orbit.example,Partnership contact
+Missing Mail Demo,,Germany,https://missing-mail.example,Needs a public business email
+Broken Mail Demo,hello@@broken.example,France,https://broken.example,Invalid email format
+,hello@unnamed.example,Japan,https://unnamed.example,Missing company name
+"Aurora, Demo Studio",team+ads@aurora.example,,https://aurora.example,"Country intentionally unknown, never guessed"
+नमूना स्टूडियो,business@studio.example,India,https://studio.example,Unicode company name example
+Formula Demo,hello@formula.example,Australia,https://formula.example,=1+1
+Blue Orbit Demo,PARTNERS@BLUE-ORBIT.EXAMPLE,United Kingdom,https://blue-orbit.example,Second duplicate
