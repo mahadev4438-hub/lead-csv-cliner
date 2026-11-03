@@ -40,7 +40,7 @@ class CleanerTests(unittest.TestCase):
         self.out = self.root / "result"
 
     def write(self, text, encoding="utf-8"):
-        self.source.write_text(text, encoding=encoding)
+        self.source.write_text(text, encoding=encoding, newline="")
 
     def report(self, filename):
         with (self.out / filename).open(encoding="utf-8-sig", newline="") as handle:
